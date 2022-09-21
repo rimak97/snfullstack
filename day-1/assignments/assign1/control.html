@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script language="JavaScript">
+        let output = ""
+
+        for (let i = 0; i <= 100; i++) {
+
+            // if dividing i by 3 and 5 yields remainder of zero 
+
+            // number is divisible by both 3 and 5 
+
+            if (i % 3 == 0 && i % 5 == 0) {
+
+                output += i + " Fizz-Buzz, "
+
+                // else if number is divisible only by 3 
+
+            } else if (i % 3 == 0) {
+
+                output += i + " Fizz, "
+
+                // else if number is divisible only by 5 
+
+            } else if (i % 5 == 0) {
+
+                output += i + " Buzz, "
+
+            }
+
+        }
+
+        console.log(output) 
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

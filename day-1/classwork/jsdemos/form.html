@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="show">
+        <form onsubmit="event.preventDefault()" name="data">
+        Username: <input type="text" required placeholder="Enter your name" name="uname"/>
+        <!-- <br/>
+        Email: <input type="email" required name="email"/>
+        <br/>
+        DOB <input type="date" name="dob">
+        <br> -->
+        <button onclick="registerUser()">Register User</button>
+        </form>
+        <button onclick="showUser()">Show User</button>
+
+
+
+        <!-- <form onsubmit="event.preventDefault()" name="fdata">
+            UserName: <input type="text" name='uname' required/>
+            <button onclick="addData()">add</button>
+                </form>
+                <button onclick="showData()">show</button>
+                <br/>
+                <div id='show'></div> -->
+    </div>
+
+    <script src="scripts/form.js"></script>
+</body>
+</html>
